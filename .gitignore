@@ -1,0 +1,48 @@
+# ── LaTeX auxiliary and build files ──────────────────────────
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.run.xml
+*.nav
+*.snm
+*.vrb
+
+# ── glossaries package ───────────────────────────────────────
+*.glo
+*.gls
+*.glg
+*.glsdefs
+*.acn
+*.acr
+*.alg
+*.ist
+
+# ── biblatex / biber ──────────────────────────────────────────
+*-blx.bib
+*.bcf-SAVE-ERROR
+*.bcf-SAVE-ERROR
+
+# ── tcolorbox / listings ──────────────────────────────────────
+*.list
+*.listing
+
+# ── PDF output (comment out if you want to track the built PDF) ──
+*.pdf
+
+# ── OS / editor cruft ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
