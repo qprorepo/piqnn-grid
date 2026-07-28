@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this manuscript, its methods, or its results, please cite it as below."
+title: "PIQNN-Grid: Physics-Informed Quantum Neural Networks for Power Grid Stability"
+authors:
+  - family-names: "Sihare"
+    given-names: "Shyam"
+    affiliation: "Dr. APJ Abdul Kalam Government College, Silvassa"
+version: 1.0.0
+date-released: 2026-07-28
+url: "https://github.com/qprorepo/piqnn-grid"
+repository-code: "https://github.com/qprorepo/piqnn-grid"
+license: MIT
+type: unpublished
+keywords:
+  - physics-informed machine learning
+  - quantum neural networks
+  - power system transient stability
+  - swing equations
+  - variational quantum circuits
+  - quantum Fisher information
+abstract: >
+  PIQNN-Grid introduces a physics-informed learning framework in which a
+  parameterized quantum circuit, rather than a classical network, is trained
+  against a physics-informed loss built directly from Kirchhoff's Laws and
+  the multi-machine swing equations, for real-time power-grid transient
+  stability assessment. The manuscript reports results on both a fully
+  simulated benchmark and an independently built pipeline evaluated against
+  real IEEE 9-, 14-, and 30-bus MATPOWER case data.
+preferred-citation:
+  type: unpublished
+  title: "PIQNN-Grid: Physics-Informed Quantum Neural Networks for Power Grid Stability"
+  authors:
+    - family-names: "Sihare"
+      given-names: "Shyam"
+      affiliation: "Dr. APJ Abdul Kalam Government College, Silvassa"
+  year: 2026
+  notes: "Manuscript in preparation"
